@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbaar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(95, 120, 120);
+ 
+}
+.navdiv{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1px;
+    /* border: 1px solid red; */
+    
+}
+.navmenue{
+    display: flex;
+    flex-direction: row;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(254, 254, 254);
+    border-radius: 30%;
+    margin-right: 80px;
+    margin-left: -200px;
+}
+.logomain{
+    margin-right: 90px;
+    margin-left: -140px;
+}
+.navmenue li {
+  list-style: none;
+}
+.navmenue a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-size: 18px;
+    color: white;
+    
+}
+.searchmenue{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.searchmenue{
+    /* margin-right: -280px; */
+    margin-left: 100px;
+    margin-right: -300px;
+
+}
+.searchmenue input{
+    height: 33px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: none;
+    border: none;
+    border-color: white;
+    padding-left: 10px;
+    margin-right: 10px;
+    outline: none;
+}
+.searchmenue button{
+    height: 27px;
+    width: 70px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    /* padding-left: 10px; */
+    margin-left: -90px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(128, 166, 236);
+    margin-bottom: 2.8px;
+}
+.searchmenue button:hover{
+    background-color: #33ccff;
+}
+.navmenue li{
+    margin-left: 15px;
+    margin-bottom: -22px;
+}
+.navmenue a:hover{
+cursor: pointer;
+color: #33ccff;
+transition: 0.3s;
+}
+.navposh:after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 1px;
+    background-color:#33ccff;
+    /* background-color:#ffef0b; */
+
+    transition: width 0.3;
+}
+.navposh:hover:after{
+    width: 100%;
+    transition: width 0.5s;
+
+}

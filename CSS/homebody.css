@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Righteous&family=Titillium+Web:wght@300;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bodymain {
+    height: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: gold; */
+}
+/* left side body content */
+.videoandtextcontent {
+    width: 50%;
+    /* border: 1px solid red; */
+}
+
+.videocontent {
+    width: auto;
+    height: 60%;
+    margin-left: 30px;
+    /* border: 1px solid red; */
+}
+
+.textcontent {
+    margin-left: 30px;
+}
+
+.welcomvideo {
+    width: 100%;
+    height: auto;
+}
+
+/* right side body content */
+.websidecontent {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 500px;
+    /* border: 1px solid red; */
+}
+
+.sidecontentallitems {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    
+    /* border: 1px solid red; */
+    
+}
+
+.socialmediaicon1{
+    /* display: flex;
+    flex-direction: column; 
+ align-self: center; */
+ margin-top: 30px;
+ margin-left: 10px;
+}
+.sameicon{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+/* Socialmedia icon design starts from here  */
+
+.sidecontentsocialmedia {
+    /* margin-top: 40px; */
+    /* margin-left: 100px; */
+    display: flex;
+    flex-direction: column;
+    /* height: 500px; */
+    /* align-items: center; */
+    /* background-color: #64afec; */
+    /* justify-content: center; */
+}
+
+.facebookiconcolorside {
+    color: #000cf9;
+    width: 90px;
+    height: 50px;
+
+    padding-top: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+
+
+}
+
+.twittericoncolorside {
+    color: #088af4;
+    width: 100px;
+    height: 50px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.instagramiconcolorside {
+    color: #ed5c08;
+    width: 100px;
+    height: 50px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.youtubeiconcolorside {
+    color: #960a0a;
+    width: 100px;
+    height: 50px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.facebookiconcolorside:hover {
+    /* color:  #000cf9; */
+    color: #ffffff;
+
+}
+
+.twittericoncolorside:hover {
+    /* color: #088af4; */
+    color: white;
+
+}
+
+.instagramiconcolorside:hover {
+    /* color: #ed5c08; */
+    color: white;
+}
+
+.youtubeiconcolorside:hover {
+    /* color: #960a0a; */
+    color: white;
+}
+
+.iconsizef {
+    display: flex;
+    flex-direction: row;
+    color: rgb(6, 14, 247);
+    height: 45px;
+    width: 44px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 14px;
+    background-color: #d6e0e7;
+    border: none;
+    border-radius: 40px
+}
+
+.iconsizef:hover {
+    background-color: #000cf9;
+    transition: 0.3s;
+}
+
+.iconsizet {
+    display: flex;
+    flex-direction: row;
+    color: #088af4;
+    height: 45px;
+    width: 44px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 14px;
+    background-color: #d6e0e7;
+    border: none;
+    border-radius: 40px
+}
+
+.iconsizet:hover {
+    background-color: #088af4;
+    transition: 0.3s;
+}
+
+.iconsizey {
+    display: flex;
+    flex-direction: row;
+    color: #088af4;
+    height: 45px;
+    width: 44px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 14px;
+    background-color: #d6e0e7;
+    border: none;
+    border-radius: 40px
+}
+
+.iconsizey:hover {
+    background-color: #960a0a;
+    transition: 0.3s;
+}
+
+.iconsizei {
+    display: flex;
+    flex-direction: row;
+    color: #088af4;
+    height: 45px;
+    width: 44px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 14px;
+    background-color: #d6e0e7;
+    border: none;
+    border-radius: 40px
+}
+
+.iconsizei:hover {
+    background-color: #ed5c08;
+    transition: 0.3s;
+}
+.socialmediaiconnamef{
+    color: black;
+    border: 1px solid red;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    /* padding-left: 41px;
+    padding-right: 41px; */
+    margin-right: 10px;
+    text-align: center;
+
+    background-color: #6c71d7;
+    width: 150px;
+
+    outline: none;
+    box-shadow: inset 0 0 0 0  #000cf9;
+    font-size: 18px;
+    /* font-family: 'Titillium Web', sans-serif; */
+    /* font-family: 'Orbitron', sans-serif; */
+    /* font-family: 'Titillium Web', sans-serif; */
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1px;
+
+}
+.socialmediaiconnamei{
+    color: black;
+    /* border: 1px solid red; */
+    padding-top: 10px;
+    padding-bottom: 0px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    margin-right: 10px;
+     /*align-items: center;  */
+    text-align: center;
+
+    background-color: #ed9969;
+    width: 150px;
+
+    outline: none;
+    box-shadow: inset 0 0 0 0  #ed5c08;
+    font-size: 18px;
+    /* font-family: 'Titillium Web', sans-serif; */
+    /* font-family: 'Orbitron', sans-serif; */
+    /* font-family: 'Titillium Web', sans-serif; */
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1px;
+    
+
+}
+.socialmediaiconnamey{
+    color: black;
+    border: 1px solid red;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    /* padding-left: 45.5px;
+    padding-right: 45px; */
+    margin-right: 10px;
+    text-align: center;
+
+    background-color: #e76868;
+    width: 150px;
+
+    outline: none;
+    box-shadow: inset 0 0 0 0  #ff0000;
+    font-size: 18px;
+    /* font-family: 'Titillium Web', sans-serif; */
+    /* font-family: 'Orbitron', sans-serif; */
+    /* font-family: 'Titillium Web', sans-serif; */
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1px;
+    
+
+}
+.socialmediaiconnamet{
+    color: black;
+    /* border: 1px solid red; */
+    padding-top: 10px;
+    padding-bottom: 0px;
+    /* padding-left: 45px;
+    padding-right: 49px; */
+    margin-right: 10px;
+    text-align: center;
+    background-color: #64afec;
+    width: 150px;
+
+    outline: none;
+    box-shadow: inset 0 0 0 0 #088af4;
+    font-size: 18px;
+    /* font-family: 'Titillium Web', sans-serif; */
+    /* font-family: 'Orbitron', sans-serif; */
+    /* font-family: 'Titillium Web', sans-serif; */
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1px;
+
+    
+
+
+}
+.socialmediaiconnamet:hover{
+    box-shadow: inset 150px 0 0 0 #088af4;
+    color: white;
+    transition: 0.7s;
+
+}
+.socialmediaiconnamef:hover{
+    box-shadow: inset 150px 0 0 0  #000cf9;
+    color: white;
+
+    transition: 0.7s;
+
+}
+.socialmediaiconnamei:hover{
+    box-shadow: inset 150px 0 0 0  #ed5c08;
+    color: white;
+
+    transition: 0.7s;
+
+}
+.socialmediaiconnamey:hover{
+    box-shadow: inset 150px 0 0 0  #ff0000;
+    color: white;
+
+    transition: 0.7s;
+
+}
+.socialmediaiconnamet1border{
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+/* Socialmedia icon design End here  */
+/* subscribe button below side social media */
+
+.sidecontentallitemssubscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self:center ;
+    margin-top: 30px;
+}
+.sidecontentallitemssubscribeinput{
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-radius: 0 10px 0 10px;
+    color: black;
+    background-color: rgb(193, 193, 193);
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+    
+
+}
+.sidecontentallitemssubscribeinput:hover{
+    box-shadow: 2px 2px 0px 2px   #67efa9;
+    border: 2px solid #67efa9;
+    transition: 0.3s;
+    background-color: white;
+}
+.sidecontentallitemssubscribebtn{
+    height: 35px;
+    width: 150px;
+    /* margin-top: 15px; */
+    color: rgb(255, 255, 255);
+    background-color: #67efa9;
+    text-align: center;
+    /* background-color: red; */
+
+
+    font-size: 19px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* font-family: 'Titillium Web', sans-serif; */
+    /* padding-bottom: 10px; */
+    cursor: pointer;
+    border-radius: 0 10px 0 10px;
+    outline: none;
+    font-family: 'Righteous', cursive;
+    margin-top: 10px;
+    box-shadow: inset 0 0 0 0  rgb(255, 0, 0);
+
+    border: none;
+
+}
+.sidecontentallitemssubscribebtn:hover{
+    transition: 0.7s;
+    /* border: 2px solid red ; */
+    box-shadow: inset 150px 0 0 0  white;
+    color: red;
+
+}
+.sidecontentallitemssubscribetag{
+    height: auto;
+    width: 190px;   
+    /* color: rgb(0, 0, 0); */
+    color: #67efa9;
+    /* background-color: #67efa9; */
+    /* outline: #67efa9; */
+    border: 2px solid #67efa9;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Righteous', cursive;
+    box-shadow: inset 0 0 0 0  white;
+    margin-bottom: 10px;
+
+    /* background-color: red; */
+
+
+    font-size: 19px;
+/* border: 2px solid red; */
+
+}
+.sidecontentallitemssubscribetag:hover{
+cursor: pointer;
+/* border: 2px solid red; */
+box-shadow: inset 190px 0 0 0  #67efa9;
+color: white;
+border: 2px solid #67efa9;
+border-radius: 10px 10px 10px 10px;
+/* background-color:#67efa9 ; */
+transition: 0.7s;
+}
+
+/* side contact us design */
+.sidecontentcontactbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+.contactallelement{
+    /* border: 2px solid blue; */
+    padding: 40px;
+}
+.contacttitle{
+    align-items: center;
+    width: 100%;
+}
